@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8" >
+        <meta name="author" content="Solomon Ndungu">
+        <meta name="description" content="this is the page that contains all the things i am learning on html">
+<title>My first web page</title>
+<link rel="stylesheet" href="mains.css" type="text/css">
+<link rel="icon" href="html5.png" type="image/x-icon">
+   
+    </head>
+    <body>
+        <header>
+       
+       <h1>My first web page.</h1>
+       <hr>
+    <nav aria-label="primary navigation 1">
+        <ul>
+           <li> <a href="#about">How i am learning html</a></li>
+            <li><a href="#video">How the video was helpfull to me</a></li>
+            <li><a href="#My.schedule">My daily scheduel</a></li>
+            <li><a href="about.me.html">A little something on me</a></li>
+            <li><a href="contactform.html">Contact Details.</a></li>
+        </ul>
+    </nav>
+    </header>   
+        <hr>
+        <main>
+        <article id="about">
+        <h2>Let me expound on the subject</h2>
+       <p>
+        I am learning everything from a video from free code camp.
+        The video from free code camp is absolutely amazing and I recommend it without a doubt.If you want to check it out here is 
+      <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE">the video</a>
+       <aside>
+        <details>
+            <summary>
+                If you checked it out what do you think?
+            </summary>
+            <p> Pretty interesting and informative, right.</p>
+        </details>
+       </aside>
+       </article>
+       <hr>
+       <article id="video">
+       <h2>How the video was helpfull to me</h2>
+       <p>The video was <em>so helpfull</em> cause i got to know <strong>very many components</strong> concerning html</p>
+       <section>
+       <h3>What i learnt</h3>
+       <p>&nbsp;I learnt the format which is: </p>
+       <dl>
+    <dt>&lt;!DOCTYPE&gt;</dt>
+    <dd>That stands for document type and for this case it obviously is just html website.</dd>
+        <dt>&lt;html lang;&gt;</dt>
+         <dd>That is the open tag for html and must also indicates the language that the code is in using lang.</dd>
+       <dt>&lt;head&gt;</dt>
+       <dd>This is the part of the code that is not visible on the actual website but contains: Meta data that is picked up and used by the browser.Such metadata includes: <ol>
+        <li>The charset which iss the character set and is normally equated to UFT-8 for most websites</li>
+        <li>The author which is basically the writter of the code and precides name and preceded by content where the actual name is filled in.</li>
+        <li>The decription which like the author precideds name and is precided by content whereby in this case a literal short decription of the page and its contents are shared to keep the browser in the know. </li>
+    </ol>
+    </dd>
+    </dl>
+        </section>
+        </article>
+       <hr>
+    <article id="My.schedule">
+        <h2>My daily schedule.</h2>
+        <table>
+            <caption><h3>My daily schedule</h3></caption>
+            <thead>
+           <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+           </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td>Write code.</td>
+            </tr>
+            <tr>
+                <th scope="row">Break</th>
+                <td>
+                    <time datetime="11:00">11am-</time><time datetime="12:00">12pm</time>
+                </td>
+                <td>Lunch break.</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="12:00">12pm-</time><time datetime="17:00">5pm</time>
+                </td>
+                <td>Study for other courses.</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2"> All other times</td>
+                <td>free time</td>
+             </tr>
+            <tr> 
+                <th scope="row">Night</th>
+                <td>sleep</td>  
+               
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thats the oder of my day.</td>
+            </tr>
+        </tfoot>
+        </table>
+    </article>
+    </main>
+    <hr>
+    <footer>
+     <p>
+     <a href="/">Back to top</a>
+     </p>
+    </footer>
+    </body>
+</html>
